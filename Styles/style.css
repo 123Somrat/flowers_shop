@@ -8,7 +8,37 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.description{
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+}
+.title{
+    padding: 40px;
+}
+ul {
+     display: flex;
+     align-items: center;
+}
+ul li {
+     list-style: none;
+     margin:40px 80px 40px 40px;
+     padding:15px;
+     border-radius: 5px;
+}
+ul li:hover{
+    background-color: aquamarine;
+}
+.navbtn{
+    background:#E55473;
+    padding:10px 25px 10px 25px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    margin-right: 35px;
+}
+.description {
     display: flex;
     justify-content: space-between;
      width: 1920px;
@@ -17,7 +47,7 @@ body{
     
 }
 
-.headings{
+.headings {
       width:708px;
       height: 288px;
       padding: 197px 97px 0px 240px ;
@@ -47,6 +77,7 @@ body{
      margin:70px 663px;
 }
 .feature_heading{
+     text-align: center;
      margin-bottom: 7px;
 }
 .feature_details{
@@ -115,7 +146,7 @@ body{
      margin:46px 40px 5px 275px;
      color: rgba(39, 39, 39, 0.80);
      
-     
+
 }
 .fresh_flower{
     width: 150px;
@@ -136,4 +167,98 @@ body{
      width: 88px;
      height:88px;
     
+}
+.deals_description{
+    display: flex;
+    justify-content: space-between;
+     width: 1920px;
+     height: 620px;
+     background: rgba(229, 84, 115, 0.10);  
+}
+.deals_headings{
+    width:708px;
+    height:288px;
+    padding: 197px 97px 0px 260px 
+}
+.btn1{
+    background:#E55473;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding:10px 46px;
+     margin: 0px 1207px 0px 113px;
+     word-wrap: none;
+}
+.deal_img{
+     padding: 100px 429px 100px 1100px;
+}
+.deals_img{
+     width:318px;
+     height:420px;
+     margin:100px 429px 100px 110px;
+}
+.flowers{
+    margin: 0px 240px 20px 250px;
+}
+.fl_pic{
+    margin-right: 5px;
+}
+.getlatests_deals{
+    width:1400px;
+    height:449px;
+    background-image: url("/images/Rectangle\ 9.png");
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.deal_heading{
+    padding: 122px 534px 10px 533px 
+}
+.deal_coupon{
+    margin-top: 8px;
+     line-height: 20px;
+     color: rgba(39, 39, 39, 0.60);
+     margin-left: 40px;
+     margin-bottom: 40px;
+}
+input[type="text"]{
+   width:700px;
+   padding: 15px;
+   margin-left: 287px;
+   border-radius: 5px;
+   border: none;
+}
+.btnSubscribe{
+    background:#E55473;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding:15px 46px; 
+}
+.footer{
+    width: 1922px;
+    height:449px;
+    background: #111010;
+    margin-top: 50px;
+}
+.footer_heading{
+    padding: 80px 831px 10px 832px;
+}
+.footer_details{
+   text-align: center;
+    color: azure;
+    margin-bottom: 15px
+}
+.flow{
+    color: #E55473;
+    display: inline-block;
+    
+   
+}
+.shop{
+    color: aliceblue;
+}
+.copyRight{
+    text-align: center;
+    color: aqua;
 }
